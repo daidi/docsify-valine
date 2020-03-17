@@ -1,8 +1,8 @@
 {
   "name": "docsify-valine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fast, simple & powerful comment system for docsify.",
-  "main": "docsify-valine.js",
+  "main": "dist/docsify-valine.min.js",
   "scripts": {
     "start": "rollup -c -w --environment NODE_ENV:development",
     "build": "rollup -c --environment NODE_ENV:production,INCLUDE_UMD",

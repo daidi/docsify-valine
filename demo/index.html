@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>docsify-valine - A fast, simple & powerful comment system for docsify.</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="description" content="A fast, simple & powerful comment system for docsify.">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+</head>
+<body>
+<div id="app"></div>
+<script>
+    window.$docsify = {
+        name: 'docsify-valine',
+        loadSidebar: true,
+        subMaxLevel: 3,
+        coverpage: true,
+        repo: 'https://github.com/daidi/docsify-valine',
+        Valine: {
+            appId: 'fORRxSTIHwpBoKkgfJ20sYCh-gzGzoHsz',
+            appKey: 'x7TNHar21x0B3ERILxcpstu0'
+        }
+    }
+</script>
+<script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+<script src="//unpkg.com/docsify-valine/dist/docsify-valine.min.js"></script>
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+</body>
+</html>
