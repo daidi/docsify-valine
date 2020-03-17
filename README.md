@@ -3,6 +3,12 @@ A fast, simple & powerful comment system for docsify.
 
 docsify-valine will allow you touse a fast, simple & powerful comment system [valine](https://github.com/xCss/Valine) on your [docsify](https://docsify.js.org/#/) pages.
 
+## Demo
+
+we provide you a simple demo page [here](https://daidi.github.io/docsify-valine/demo/#/) ,so you can see how it works.
+
+the code refers to `demo` folder which you can find in this repo.
+
 ## 🚧 Install
 
 ### Get APP_ID and APP_Key
