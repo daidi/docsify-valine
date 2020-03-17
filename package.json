@@ -1,0 +1,39 @@
+{
+  "name": "docsify-valine",
+  "version": "1.0.0",
+  "description": "A fast, simple & powerful comment system for docsify.",
+  "main": "docsify-valine.js",
+  "scripts": {
+    "start": "rollup -c -w --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production,INCLUDE_UMD",
+    "test": "cross-env NODE_ENV=test mocha --require @babel/register",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daidi/docsify-valine.git"
+  },
+  "keywords": [],
+  "author": "daidi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daidi/docsify-valine/issues"
+  },
+  "homepage": "https://github.com/daidi/docsify-valine#readme",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "autoprefixer": "^9.7.4",
+    "lodash.merge": "^4.6.2",
+    "rollup": "^2.0.6",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-postcss": "^2.4.1",
+    "rollup-plugin-terser": "^5.3.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {}
+}
