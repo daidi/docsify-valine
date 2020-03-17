@@ -5,9 +5,9 @@ docsify-valine will allow you touse a fast, simple & powerful comment system [va
 
 ## Demo
 
-we provide you a simple demo page [here](https://daidi.github.io/docsify-valine/demo/#/) ,so you can see how it works.
+we provide you a simple demo page [here](https://daidi.github.io/docsify-valine/demo/#/) , so you can see how it works.
 
-the code refers to `demo` folder which you can find in this repo.
+the code refers to `demo` folder which you can find in the GitHub repo.
 
 ## 🚧 Install
 
