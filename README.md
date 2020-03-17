@@ -1,7 +1,7 @@
 # docsify-valine
 A fast, simple & powerful comment system for docsify. 
 
-docsify-valine will allow you touse a fast, simple & powerful comment system [valine](https://github.com/xCss/Valine) on your [docsify](https://docsify.js.org/#/) pages.
+docsify-valine will allow you to use a fast, simple & powerful comment system [valine](https://github.com/xCss/Valine) on your [docsify](https://docsify.js.org/#/) pages.
 
 ## Demo
 
