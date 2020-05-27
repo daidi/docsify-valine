@@ -39,4 +39,4 @@ Please include the following JS code in the appropriate location on the article 
 </body>
 ```
 
-See the [Config](https://valine.js.org/configuration.html) for more details.
+See the [Config](https://valine.js.org/en/configuration.html) for more details.
