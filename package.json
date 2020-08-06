@@ -1,6 +1,6 @@
 {
   "name": "docsify-valine",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A fast, simple & powerful comment system for docsify.",
   "main": "dist/docsify-valine.min.js",
   "scripts": {

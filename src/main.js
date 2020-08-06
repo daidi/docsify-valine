@@ -19,7 +19,7 @@ function docsifyValine(hook, vm) {
         vm.config.Valine = vm.config.Valine || {}
         var options = Object.assign({
             el: '#vcomments',
-            path: location.pathname + location.hash.replace(/\?.+/, ""),
+            path: vm.config.Valine.docPath === 'full' ? location.pathname + location.hash.replace(/\?.+/, "") : location.hash.replace(/\?.+/, ""),
         }, vm.config.Valine)
         if (!options.appId || !options.appKey) {
             console.warn('sorry , appId and appKey must be required .');

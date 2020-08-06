@@ -29,7 +29,8 @@ Please include the following JS code in the appropriate location on the article 
           // docsify-valine (defaults)
           Valine: {
               appId: '<APP_ID>',
-              appKey: '<APP_Key>'
+              appKey: '<APP_Key>',
+              // docPath: 'hash', //default to `hash` ,or you can choose `full`
           }
         }
     </script>
