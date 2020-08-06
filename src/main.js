@@ -11,7 +11,8 @@ function docsifyValine(hook, vm) {
         var n = a.create("div");
         n.id = "vcomments";
         var i = a.getNode("#main");
-        n.style = "width: " + i.clientWidth + "px !important; margin: 0 auto 20px;", a.appendTo(a.find(".content"), n);
+        // n.style = "width: " + i.clientWidth + "px !important; margin: 0 auto 20px;", a.appendTo(a.find(".content"), n);
+        n.style = "max-width: 80% !important; margin: 0 auto 20px;", a.appendTo(a.find(".content"), n);// responsive design
     })
 
     hook.doneEach(function () {

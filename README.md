@@ -13,9 +13,9 @@ the code refers to `demo` folder which you can find in the GitHub repo.
 
 ### Get APP_ID and APP_Key
 
-[Click here](https://leancloud.cn/dashboard/login.html#/signup) to register or login in `leancloud`.  
+[Click here](https://console.leancloud.app/login.html#/signin) to register or login in `leancloud`.  (for chinese user , click [这里](https://leancloud.app/dashboard/login.html#/signup) )
 
-[Click here](https://leancloud.cn/dashboard/applist.html#/newapp) Create new application in `Leancloud`, and you will get `APP ID`/`APP Key`.
+[Click here](https://console.leancloud.app/applist.html#/newapp) Create new application in `Leancloud`, and you will get `APP ID`/`APP Key`. (for chinese user , click [这里](https://leancloud.cn/dashboard/applist.html#/newapp) )
 
 ### JS structure
 

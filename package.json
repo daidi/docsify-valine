@@ -21,12 +21,12 @@
   },
   "homepage": "https://github.com/daidi/docsify-valine#readme",
   "devDependencies": {
-    "@babel/core": "^7.8.7",
-    "@babel/preset-env": "^7.8.7",
-    "rollup": "^2.0.6",
-    "rollup-plugin-terser": "^5.3.0"
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "rollup": "^2.23.0",
+    "rollup-plugin-terser": "^6.1.0"
   },
   "dependencies": {
-    "valine": "^1.3.10"
+    "valine": "^1.4.14"
   }
 }
