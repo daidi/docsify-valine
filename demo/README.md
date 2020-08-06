@@ -1,7 +1,7 @@
 # docsify-valine
 A fast, simple & powerful comment system for docsify. 
 
-docsify-valine will allow you touse a fast, simple & powerful comment system [valine](https://github.com/xCss/Valine) on your [docsify](https://docsify.js.org/#/) pages.
+docsify-valine will allow you to use a fast, simple & powerful comment system [valine](https://github.com/xCss/Valine) on your [docsify](https://docsify.js.org/#/) pages.
 
 ## Demo
 
@@ -13,9 +13,9 @@ the code refers to `demo` folder which you can find in the GitHub repo.
 
 ### Get APP_ID and APP_Key
 
-[Click here](https://leancloud.cn/dashboard/login.html#/signup) to register or login in `leancloud`.  
+[Click here](https://console.leancloud.app/login.html#/signin) to register or login in `leancloud`.  (for chinese user , click [这里](https://leancloud.app/dashboard/login.html#/signup) )
 
-[Click here](https://leancloud.cn/dashboard/applist.html#/newapp) Create new application in `Leancloud`, and you will get `APP ID`/`APP Key`.
+[Click here](https://console.leancloud.app/applist.html#/newapp) Create new application in `Leancloud`, and you will get `APP ID`/`APP Key`. (for chinese user , click [这里](https://leancloud.cn/dashboard/applist.html#/newapp) )
 
 ### JS structure
 
@@ -39,4 +39,4 @@ Please include the following JS code in the appropriate location on the article 
 </body>
 ```
 
-See the [Config](https://valine.js.org/configuration.html) for more details.
+See the [Config](https://valine.js.org/en/configuration.html) for more details.
